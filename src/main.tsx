@@ -5,6 +5,9 @@ import './index.css'
 import axios from 'axios'
 import { Toaster } from 'react-hot-toast';
 
+// if (process.env.REACT_APP_NODE_ENV != "production") {
+//   dotenv.config();
+// }
 axios.defaults.baseURL = "https://taskmanagement-t94x.onrender.com";
 //axios.defaults.withCredentials = true;
 
